@@ -5,7 +5,7 @@ dotenv.config();
 const portnumber=process.env.PORT;
 
 app.get("/",(req,res)=>{
-    res.send("Hi Sanika")
+    res.send("Hi Omkar")
 })
 app.get("/start",async (req,res)=>{
     const response=await fetch("https://s3.amazonaws.com/roxiler.com/product_transaction.json");
